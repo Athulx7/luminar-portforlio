@@ -1,0 +1,288 @@
+*{
+font-family: "Sedan SC", serif;
+margin: 0px;
+padding: 0px;
+}
+.container{
+    width: 100%;
+}
+
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    width: 85%;
+    align-items: center;
+
+}
+
+ul li{
+    display: inline;
+}
+
+.navcontents{
+    width: 555px;
+    height: 71px;
+    position: relative;
+    top: 47px;
+   
+}
+#nav-a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+#nav-a:hover{
+    color: red;
+}
+.lists{
+    margin-left:22px;
+    font-size: 26px;
+    font-weight: bold;
+}
+.mainbody{
+    height: 377px;
+    width: 100%;
+}
+.bodytext{
+    margin-top: 13%;
+    margin-left: 8%;
+
+}
+#heading{
+    font-size: 60px;
+
+}
+#text_p{
+    font-size: 20px;
+    margin-top: 2%;
+}
+.bodytext a{
+  
+        text-decoration: none;
+        background-color: black;
+        padding: 10px 30px;
+        color: white;
+        border-radius: 7px;
+        
+        position: relative;
+        top: 48px;
+        left: 89px
+
+}
+.imagediv{
+    width: 32%;
+    height: 61%;
+    position: absolute;
+    right: 28px;
+    bottom: 19%
+}
+.imagegroup{
+    position: absolute;
+    height: 100%;
+    bottom: 0px;
+    left: 50px;
+    transform: translate(-50%);
+    transition: bottom 1s, left 2s;
+    
+
+}
+.imagediv:hover #shape{
+    bottom:30px;
+}
+.imagediv:hover #girl{
+    left: 20%;
+}
+.about{
+    margin: 13% 8% 0px 8%;
+    position: relative;
+    bottom: 33px;
+
+}
+.abouthead{
+    text-align: center;
+    position: relative;
+    bottom:167px;
+}
+.abouthead h3{
+    color: green;
+} 
+.about-container{
+    position: relative;
+    bottom:130px;
+    height: 430px;
+}
+.aboutpara{
+    width: 626px;
+    position: relative;
+    left: 656px;
+    bottom: 395px;
+    font-size: larger;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24,
+
+}
+.aboutname{
+    position: relative;
+    top: 63px;
+}
+#contact{
+    position: relative;
+    left: 7px;
+    top:-4px
+}
+.phone{
+    position: relative;
+    top: 101px;
+    left: 2px;
+}
+.aboutdown{
+    height: 250px;
+}
+.mail{
+    position: relative;
+    top: 142px;
+    left: 6px;
+}
+
+.git{
+    position: relative;
+    top: 175px;
+    left: 6px;
+}
+.skillhead{
+    text-align: center;
+    position: relative;
+    bottom:-3px;
+}
+.skillhead h3{
+    color: green;
+}
+#skills{
+    position: relative;
+    top: -100px;
+}
+.skill-container{
+    display: grid;
+    grid-template-columns:repeat(2,1fr);
+    column-gap: 50px;
+    margin-top: 4%;
+}
+.progeres-bar{
+    margin-top:25px ;
+    margin-left: 50px;
+
+}
+.bar-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0px;
+    margin-bottom: 1rem;
+    position: relative;
+
+}
+.bar-container h3,span{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.bar{
+    width: 100%;
+    height: 8px;
+    background-color: black;
+    position: absolute;
+    bottom: 0px;
+    
+}
+.html-bar{
+    background-color: orange;
+    width: 94%;
+}
+
+.footerhead{
+    text-align: center;
+    position: relative;
+    bottom:-3px;
+}
+.footerhead h3{
+    color: green;
+}
+.icon-set{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3%;
+    margin-left: -75px;
+}
+.icon{
+    font-size: 38px;
+    margin-left: 70px;
+    color: black;
+    
+}
+ #icon:hover{
+    color: white;
+    background: linear-gradient(red,yellow);
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+
+    /* color: white; */
+}
+#icon{
+    color: black;
+}
+
+#icon:hover{
+    animation: shake 0.75s;
+}
+@keyframes shake{
+    10%{
+        transform: rotate(15deg);
+    }
+    20%{
+        transform: rotate(-15deg);
+
+    }
+    30%{
+        transform: rotate(15deg);
+
+    }
+    40%{
+        transform: rotate(-15deg);
+    }
+}
+footer{
+    margin:5rem;
+}
+footer p{
+    text-align: center;
+    font-weight: 600;
+}
+.arrow{    float: right;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    background: linear-gradient(red, yellow, orange);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%
+
+}
+
+#arrow{position: relative;
+left: 14px;
+top: 8px;
+width: 27px;
+font-size: 30px;
+color: black;
+}
+html{
+    scroll-behavior: smooth;
+}
